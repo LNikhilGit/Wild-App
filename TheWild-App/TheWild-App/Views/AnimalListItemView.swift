@@ -14,7 +14,7 @@ struct AnimalListItemView: View {
     
     var body: some View {
         // Hstack
-        HStack(alignment: .center, spacing: 16){
+        HStack(alignment: .center, spacing: 18){
             
             Image(animal.image)
                 .resizable()
